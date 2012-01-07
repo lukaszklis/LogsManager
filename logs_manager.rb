@@ -17,5 +17,5 @@ class LogsManager
 
 end
 
-logs = LogsManager.new("server", "host", "user", "pass", "directory")
+logs = LogsManager.new("filename", "host", "user", "pass", "directory")
 logs.archive
